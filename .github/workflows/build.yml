@@ -1,6 +1,15 @@
 name: Main
 
-on: push
+on: 
+  push:
+    paths:
+    - '**.ts'
+    - '.github/workflows/build.yml'
+    - 'package.json'
+    - 'tsconfig.json'
+    - 'manifest.json'
+    - 'pack_icon.png'
+    - 'tsconfig.json'
 
 jobs:
   build:
