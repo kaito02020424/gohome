@@ -160,7 +160,7 @@ chatEvent.registerCommand("help", "Show help", "Everyone", (args, sender, result
         let helpMessage = "Commands:\n";
         for (const commandName of commandNames) {
             if (!chatEvent.checkPermission(sender, chatEvent.getAllCommands()[commandName].permission)) continue;
-            helpMessage += `§c${commandName}§r: ${chatEvent.getAllCommands()[commandName].description}\n - §cArgs§r: ${Object.keys(chatEvent.getAllCommands()[commandName].args).join(", ")}\n`;
+            helpMessage += `§c§l${commandName}§r: ${chatEvent.getAllCommands()[commandName].description}\n - §cArgs§r: ${Object.keys(chatEvent.getAllCommands()[commandName].args).join(", ")}\n`;
         }
         sender.sendMessage(helpMessage);
     }
