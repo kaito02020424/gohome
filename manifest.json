@@ -1,0 +1,46 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "gohome script (written by kaito02020424)",
+        "name": "gohome",
+        "uuid": "fc24ef79-ca66-4db8-b40d-f7cb9cd65b15",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            20
+        ]
+    },
+    "modules": [
+        {
+            "description": "gohome scripts",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "b0187bb7-e361-481a-8080-211ed2340b83",
+            "version": [
+                0,
+                0,
+                1
+            ],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.2.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-net",
+            "version": "1.0.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "syosin-scriptapi",
+  "version": "1.0.0",
+  "description": "syosin-mc's script packs.",
+  "main": "scripts/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kaito02020424",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@minecraft/server": "^2.2.0-beta.1.21.102-stable"
+  }
+}
