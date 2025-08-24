@@ -5,5 +5,4 @@ export const config ={
         "nether":true,
         "the_end":false
     },
-    "teleport_log":true
 }
