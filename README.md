@@ -8,8 +8,8 @@
  - `!sethome <名前>`  
  ex) `!sethome myhome`  
  現在地を指定した名前として登録し, gohomeできるようにします
- - `!delhome <名前>`
- ex) `!delhome myhome`  
+ - `!delhome <名前>`  
+ ex) `!delhome myhome`
  指定した名前の地点を削除します
  - `!listhome`
  自分の登録したhome一覧を表示します
